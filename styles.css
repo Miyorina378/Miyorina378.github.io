@@ -1,0 +1,35 @@
+body{
+    background-image: url(images/honkai-star-rail-firefly-honkai-star-rail-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Kosugi Maru", sans-serif;
+  }
+  
+    .lower-bg-opacity::after{
+    content: "";  
+    position: absolute;
+    isolation: isolate;
+    z-index: -1;
+    inset:  0;
+    background:black; 
+    opacity: 0.7;
+  }
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      z-index: 1;
+    }
+  
+    h1{
+      letter-spacing: 1.5px;
+      -webkit-text-fill-color: rgb(55, 224, 55);}
+    
+    h2{
+      -webkit-text-fill-color: rgb(17, 231, 238);
+    }
+    a{
+      -webkit-text-fill-color: rgb(244, 248, 248);
+    }
