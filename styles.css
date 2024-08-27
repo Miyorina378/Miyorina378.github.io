@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
 body{
     background-image: url(images/honkai-star-rail-firefly-honkai-star-rail-hd-wallpaper-preview.jpg);
     background-repeat: no-repeat;
@@ -5,31 +12,69 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: "Kosugi Maru", sans-serif;
+    z-index: -99;
   }
-  
-    .lower-bg-opacity::after{
+
+nav{
+    background: #19191a;
+    height: 80px;
+    width: 100%;
+}
+.lower-bg-opacity::after{
     content: "";  
     position: absolute;
     isolation: isolate;
-    z-index: -1;
+    z-index: -99;
     inset:  0;
     background:black; 
-    opacity: 0.7;
+    opacity: 0.3;
   }
-  .center {
+.center {
       display: block;
       margin-left: auto;
       margin-right: auto;
       z-index: 1;
     }
+.container{
+        width: 400px;
+        height: 520px;
+        margin: 100px auto;
+        background: url(images/pixel_box.jpg), #e9e6d8;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+        /*border: 2px solid red; /* Temporary border to make sure it’s visible */
+    }
+.container h2{
+    -webkit-text-fill-color: rgb(34, 207, 34);
+
+}
+
   
-    h1{
-      letter-spacing: 1.5px;
-      -webkit-text-fill-color: rgb(55, 224, 55);}
+h1{
+      font-size: 35px;
+      line-height: 80px;
+      padding: 0 100px;
+      font-weight: bold;
+      -webkit-text-fill-color: rgb(201, 209, 201);}
     
-    h2{
+h2{
       -webkit-text-fill-color: rgb(17, 231, 238);
     }
-    a{
+a{
       -webkit-text-fill-color: rgb(244, 248, 248);
     }
+
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: blueviolet;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(blueviolet, black);
+    border-radius: 10px;
+
+}
