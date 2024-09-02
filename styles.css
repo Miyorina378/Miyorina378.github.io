@@ -16,7 +16,7 @@ body{
   }
 
 nav{
-    background: #19191a;
+    background: #2e2e30;
     height: 80px;
     width: 100%;
 }
@@ -29,12 +29,14 @@ nav{
     background:black; 
     opacity: 0.3;
   }
-.center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      z-index: 1;
-    }
+  .linear-text-gradient-welcome {
+    background: linear-gradient(to right, rgb(6, 245, 245), #ff04ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 .container{
         width: 965px;
         height: 637px;
@@ -50,22 +52,32 @@ nav{
 
 .img_dec1{
     float: left;
+    margin-right: 10px;
 }
 .container h2{
+    top:  20%;
+    margin: -10px;
+    padding: 10px;
+    font-size: 65px;
+    text-align: center;
+}
+.container br{
+    margin: 1px;
+}
+.container p{
+    font-size: 22px;
     top: 20%;
     margin: 10px;
-    font-size: 40px;
-    -webkit-text-fill-color: rgb(34, 207, 34);
+    text-align: left;
+    -webkit-text-fill-color: rgb(94, 85, 85);
 
 }
-
-  
 h1{
-      font-size: 35px;
+      font-size: 60px;
       line-height: 80px;
       padding: 0 100px;
       font-weight: bold;
-      -webkit-text-fill-color: rgb(201, 209, 201);}
+  }
     
 h2{
       -webkit-text-fill-color: rgb(17, 231, 238);
