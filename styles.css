@@ -39,6 +39,7 @@ nav{
         width: 965px;
         height: 637px;
         margin: 100px auto;
+        padding: 190px 50px;
         background: url(images/pixel_box.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -46,9 +47,14 @@ nav{
         z-index: 1;
         /*border: 2px solid red; /* Temporary border to make sure it’s visible */
     }
+
+.img_dec1{
+    float: left;
+}
 .container h2{
+    top: 20%;
     margin: 10px;
-    padding: 400px;
+    font-size: 40px;
     -webkit-text-fill-color: rgb(34, 207, 34);
 
 }
