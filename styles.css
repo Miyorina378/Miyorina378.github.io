@@ -36,10 +36,10 @@ nav{
       z-index: 1;
     }
 .container{
-        width: 400px;
-        height: 520px;
+        width: 965px;
+        height: 637px;
         margin: 100px auto;
-        background: url(images/pixel_box.jpg), #e9e6d8;
+        background: url(images/pixel_box.png);
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
@@ -47,6 +47,8 @@ nav{
         /*border: 2px solid red; /* Temporary border to make sure it’s visible */
     }
 .container h2{
+    margin: 10px;
+    padding: 400px;
     -webkit-text-fill-color: rgb(34, 207, 34);
 
 }
