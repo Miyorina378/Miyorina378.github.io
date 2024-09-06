@@ -34,7 +34,7 @@ nav{
 
 .linear-text-gradient-welcome {
     background: linear-gradient(to right, rgb(6, 245, 245), #ff04ff);
-    -webkit-background-clip: text;
+    -webkit-background-clip: linear-gradient(to right, rgb(6, 245, 245), #ff04ff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -82,18 +82,40 @@ nav{
     width: cover;
     height: cover;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,85,1) 100%, rgba(55,60,61,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,85,1) 100%, rgb(12, 12, 12) 100%);
     z-index: -3;
-
-    
 }
+
 
 .container2 h2{
-    font-size: 3rem;
-    padding-left: 70px;
+    padding-top: 20px;
+    font-size: 3.75rem;
+    text-align: center;
 }
+
+.projectimg{
+    width: 800px;
+    height: 400px;
+    margin: 20px;
+}
+.projectNav{
+    margin: 30px 0;
+}
+.projectNav ul{
+    display: flex;
+    justify-content: center;
+}
+.projectNav ul li a{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.projectNav ul li a:hover{
+    opacity: 1;
+}
+
 h1{
-      font-size: 60px;
+      font-size: 3.75rem;
       line-height: 80px;
       padding: 0 100px;
       font-weight: bold;
@@ -165,15 +187,33 @@ footer{
     font-weight: 400;
 }
 
+.manga-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px auto;
+}
 
+.manga-page {
+    width: 100%;
+    max-width: 800px; /* Adjust this based on the manga image width */
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(17, 17, 17, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.manga-page:hover {
+    transform: scale(1.02);
+}
 ::-webkit-scrollbar{
     width: 15px;
 }
 ::-webkit-scrollbar-track{
-    background-color: blueviolet;
+    background-color: rgb(18, 18, 19);
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(blueviolet, black);
+    background: linear-gradient(blueviolet, rgb(11, 235, 223));
     border-radius: 10px;
 
 }
