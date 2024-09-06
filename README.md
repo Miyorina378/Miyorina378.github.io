@@ -1,6 +1,6 @@
-*Welcome to my GitHub page*
+#Welcome to my GitHub page
 
-URL: https://miyorina378.github.io/
+#URL: https://miyorina378.github.io/
 ---------------
 My name is Wongsathorn Derochanawong.
 
